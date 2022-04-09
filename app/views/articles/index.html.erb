@@ -1,0 +1,12 @@
+<div class="main_title">
+  <h1>Articles</h1>
+  <div class="adding"><%= link_to "Add an article", new_article_path, class: "adding" %></div>
+</div>
+
+
+  <% @articles.each do |article| %>
+  <div class="article">
+      <h4><%= link_to "#{article.title}", article_path(article), class: "article_title" %></h4>
+      <p><%= article.content %></p>
+  </div>
+<% end %>

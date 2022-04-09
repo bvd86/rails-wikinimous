@@ -1,0 +1,18 @@
+<h1 class="main_title"><%= @article.title %></h1>
+<p class="article"><%= @article.content %></p>
+
+<div class="link">
+  <%= link_to articles_path do %>
+    <i class="fa-solid fa-rotate-left icon"></i>
+  <% end %>
+
+  <%= link_to edit_article_path do %>
+    <i class="fa-solid fa-pen-to-square icon"></i>
+  <% end %>
+
+  <%= link_to article_path(@article),
+    method: :delete,
+    data: {confirm: "Do you want to delete #{@article.title}"} do %>
+    <i class="fa-solid fa-trash-can icon"></i>
+  <% end %>
+</div>

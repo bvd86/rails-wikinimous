@@ -1,0 +1,67 @@
+
+@import url("https://use.fontawesome.com/releases/v6.0.0/css/all.css");
+@import "bootstrap/scss/bootstrap";
+.main_title {
+  height: 90px;
+  background-color: #123456;
+  text-align: center;
+  color: #f5f8e3;
+  text-shadow: 2px 2px rgba(249, 249, 249, 0.2);
+  border-radius: 5px;
+}
+
+.adding {
+  text-decoration: none;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.adding:visited {
+  text-decoration: none;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.article {
+  border: solid 2px #123456;
+  margin: 2px 2px;
+  border-radius: 5px;
+  background-color: #f5f8e3;
+  padding: 0px 12px;
+}
+
+p {
+  text-align: center;
+}
+
+h4 {
+  font-size: 28px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.article_title {
+  color: #123456;
+  text-decoration: none;
+}
+
+.article_title:visited {
+  color: #123456;
+  text-decoration: none;
+}
+
+.icon {
+  color: #123456;
+  font-size: 24px;
+  padding: 5px;
+}
+
+.link {
+  display: block;
+  text-align: center;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+}
